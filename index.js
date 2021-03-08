@@ -1,5 +1,8 @@
 'use strict';
 
-let date = new Date ()
+// пишемо таймер , що буде в консоль кожну секунду щось виводити
+setInterval(function () {
+console.log('!');
+}, 1000);
 
-console.log('виводим поточну дату', date.getFullYear() );
+
