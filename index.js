@@ -1,7 +1,7 @@
 'use strict';
 
-setInterval(function () {
-console.log('!');
-}, 1000);
+let data = new Date();
+
+console.log(data.getFullYear())
 
 
