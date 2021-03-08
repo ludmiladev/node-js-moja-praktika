@@ -1,8 +1,5 @@
 'use strict';
 
-function funct (a) {
-    return a*a
-}
+let date = new Date ()
 
-
-console.log('Привіт!', funct(4) );
+console.log('виводим поточну дату', date.getFullYear() );
