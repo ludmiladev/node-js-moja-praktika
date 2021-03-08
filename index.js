@@ -1,7 +1,8 @@
 'use strict';
 
-let a = 3;
-let b = 3;
+function funct (a) {
+    return a*a
+}
 
 
-console.log('Привіт!', a + b );
+console.log('Привіт!', funct(4) );
