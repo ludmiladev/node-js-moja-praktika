@@ -1,7 +1,11 @@
 'use strict';
 
-let data = new Date();
+let a = 0;
 
-console.log(data.getDate(),':', data.getMonth() ,':', data.getFullYear());
+setInterval(function () {
+console.log(++a);
+}, 1000);
+
+
 
 
