@@ -1,10 +1,9 @@
 'use strict';
 
-let a = 0;
+let fs = require('fs');
 
-setInterval(function () {
-console.log(++a);
-}, 1000);
+let text = fs.readFileSync('readme.txt', 'utf8');
+console.log(text);
 
 
 
