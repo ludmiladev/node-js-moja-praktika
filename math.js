@@ -16,7 +16,7 @@ function cube(num) {
     }
 }
 
-function chek(num) {
+function check(num) {
     if (num>0) {
 return true
     } else {
