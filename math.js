@@ -1,3 +1,5 @@
+'use strict';
+
 function square(num) {
     if (check (num)) {
         return num*num ;
