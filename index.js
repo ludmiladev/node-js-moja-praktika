@@ -1,11 +1,4 @@
 'use strict';
 
-let a = 0;
-
-setInterval(function () {
-console.log(++a);
-}, 1000);
-
-
-
-
+let math = reqire('./math');
+console.log(math.square(4));
