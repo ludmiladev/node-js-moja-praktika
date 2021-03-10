@@ -1,4 +1,4 @@
 'use strict';
 
-let math = reqire('./math');
+let math = require('./math');
 console.log(math.square(4));
